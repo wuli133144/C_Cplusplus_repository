@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="12e325ee-feee-4e85-9378-3d856482ce63" name="UMLClassDiagram1" linkedPackageId="33bd7ccb-5f0c-4c66-b939-1e691865d230" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="492280a6-2731-46b5-aed0-0a2992a8f54e">
+      <elementDefinition Id="e200d3e8-85d5-4d64-aa11-1fb5cada9644" />
+      <body>菜单选项
+关于开始游戏，暂停游戏和进度条
+</body>
+      <annotatedElements>
+        <packageMoniker Id="3a83d464-8d3a-4029-98cd-5abc25755ce0" LastKnownName="com.mario.option" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="9aada945-3b17-4de0-83b4-fa948fc8b767">
+      <profileInstance Id="50e3f4a7-2ff4-453c-b3f4-f234ef266b6c" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a97c03fb-8fc3-4b28-b453-919991641996">
+      <profileInstance Id="1f1e1085-e9e8-45b6-8946-440a2d765c2b" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="2994cb9b-657b-425b-acb1-771688d9e2b8" name="com.mario.load">
+        <elementDefinition Id="76b1851c-527b-43be-86b2-ef15ac4f08be" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="6b643530-8f11-4551-8e27-d005955c56b9" name="loadresource.java" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="6ae6f051-d827-432d-b606-2478fec0fa10" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="7958b2d5-00bf-4872-94a9-5320d18ed7bd" name="loadavtivity" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="9c1b0827-ee70-41aa-a1df-4ebe7c21f128" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="ff320674-e8db-453e-b00f-4f440ab934f8" name="loadview.java" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="a54c1dfe-9c14-4535-95de-cab7714162fe" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="3a83d464-8d3a-4029-98cd-5abc25755ce0" name="com.mario.option">
+        <elementDefinition Id="8900128c-7799-40f4-b921-edad691da1c4" />
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="acf7287f-837a-4209-b2e3-d64d1400d90f" name="mario" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1d7ecda0-2c22-4ead-a30f-f564dc926dcb" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="36230511-3235-4ca0-86ec-e3b76560ddc3" name="blast" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5f8ef716-28a2-4c2a-979b-fa09adc608cd" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0af11f94-35b3-407f-be12-39d561c6220f" name="totuise" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1df257e4-661f-44c7-acd9-5f1e4676dda5" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="6e9fcc02-c26b-40bc-9c40-3783f1f868ce" name="com.mario.menu">
+        <ownedCommentsInternal>
+          <comment Id="60c59d80-9359-4bc6-bc07-dc66f543ac14">
+            <elementDefinition Id="34d20ca8-9f18-4993-b004-1216bb758eaf" />
+            <body>com.mario.menu是菜单视图初始化的包
+</body>
+          </comment>
+        </ownedCommentsInternal>
+        <elementDefinition Id="059030a9-bc68-471d-a6be-ace27201f230" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="31582b58-57ec-4d0e-ad52-868a6c287e8d" name="mainavtivity.java" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="1ddc4bad-41a9-4aa5-8907-4549fb403d64" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="9cff9999-a8dc-4b78-b817-a2da84103d8f" name="minview.java" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="3007f665-e2af-4aec-b103-de72b344ba35" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+  </packagedElements>
+  <package Id="33bd7ccb-5f0c-4c66-b939-1e691865d230" name="ModelingProject1">
+    <elementDefinition Id="ee608e1c-ff70-411b-b24d-e217261c3215" />
+  </package>
+</logicalClassDesignerModel>

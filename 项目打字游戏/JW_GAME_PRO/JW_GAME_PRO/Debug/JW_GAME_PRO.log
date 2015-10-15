@@ -1,0 +1,25 @@
+﻿生成启动时间为 2015/9/13 20:46:37。
+     1>项目“G:\Wnddemo\c\项目打字游戏\JW_GAME_PRO\JW_GAME_PRO\JW_GAME_PRO.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\JW_GAME_PRO.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt _Main.c
+         _Main.c
+     1>g:\wnddemo\c\项目打字游戏\jw_game_pro\jw_game_pro\fun_esc.h(32): warning C4013: “getch”未定义；假设外部返回 int
+     1>g:\wnddemo\c\项目打字游戏\jw_game_pro\jw_game_pro\fun_esc.h(77): warning C4013: “kbhit”未定义；假设外部返回 int
+     1>g:\wnddemo\c\项目打字游戏\jw_game_pro\jw_game_pro\fun_esc.h(122): warning C4013: “delay”未定义；假设外部返回 int
+     1>g:\wnddemo\c\项目打字游戏\jw_game_pro\jw_game_pro\_main.c(32): warning C4101: “j”: 未引用的局部变量
+     1>g:\wnddemo\c\项目打字游戏\jw_game_pro\jw_game_pro\fun_esc.h(51): warning C4715: “fun_esc”: 不是所有的控件路径都返回值
+     1>g:\wnddemo\c\项目打字游戏\jw_game_pro\jw_game_pro\fun_esc.h(131): warning C4715: “OS_PLAY_FUN”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Wnddemo\c\项目打字游戏\JW_GAME_PRO\Debug\JW_GAME_PRO.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\JW_GAME_PRO.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Wnddemo\c\项目打字游戏\JW_GAME_PRO\Debug\JW_GAME_PRO.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Wnddemo\c\项目打字游戏\JW_GAME_PRO\Debug\JW_GAME_PRO.lib" /MACHINE:X86 Debug\JW_GAME_PRO.exe.embed.manifest.res
+         Debug\_Main.obj
+     1>_Main.obj : error LNK2001: 无法解析的外部符号 _delay
+     1>G:\Wnddemo\c\项目打字游戏\JW_GAME_PRO\Debug\JW_GAME_PRO.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“G:\Wnddemo\c\项目打字游戏\JW_GAME_PRO\JW_GAME_PRO\JW_GAME_PRO.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.59

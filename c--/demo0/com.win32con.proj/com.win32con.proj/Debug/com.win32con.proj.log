@@ -1,0 +1,41 @@
+﻿生成启动时间为 2015/10/11 11:12:26。
+     1>项目“G:\Wnddemo\c\c--\demo0\com.win32con.proj\com.win32con.proj\com.win32con.proj.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\com.win32con.proj.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Stringclass.c
+         Stringclass.c
+     1>g:\wnddemo\c\c--\demo0\com.win32con.proj\com.win32con.proj\stringclass.c(23): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>g:\wnddemo\c\c--\demo0\com.win32con.proj\com.win32con.proj\stringclass.c(24): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>g:\wnddemo\c\c--\demo0\com.win32con.proj\com.win32con.proj\stringclass.c(43): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\wnddemo\c\c--\demo0\com.win32con.proj\com.win32con.proj\stringclass.c(54): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\wnddemo\c\c--\demo0\com.win32con.proj\com.win32con.proj\stringclass.c(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\wnddemo\c\c--\demo0\com.win32con.proj\com.win32con.proj\stringclass.c(97): warning C4028: 形参 1 与声明不同
+     1>g:\wnddemo\c\c--\demo0\com.win32con.proj\com.win32con.proj\stringclass.c(107): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Wnddemo\c\c--\demo0\com.win32con.proj\Debug\com.win32con.proj.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\com.win32con.proj.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Wnddemo\c\c--\demo0\com.win32con.proj\Debug\com.win32con.proj.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Wnddemo\c\c--\demo0\com.win32con.proj\Debug\com.win32con.proj.lib" /MACHINE:X86 Debug\com.win32con.proj.exe.embed.manifest.res
+         Debug\CObject.obj
+         Debug\main.obj
+         Debug\Stringclass.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\com.win32con.proj.exe.embed.manifest" /manifest Debug\com.win32con.proj.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         com.win32con.proj.vcxproj -> G:\Wnddemo\c\c--\demo0\com.win32con.proj\Debug\com.win32con.proj.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\com.win32con.proj.unsuccessfulbuild”。
+         正在对“Debug\com.win32con.proj.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Wnddemo\c\c--\demo0\com.win32con.proj\com.win32con.proj\com.win32con.proj.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.79

@@ -1,0 +1,51 @@
+﻿生成启动时间为 2015/9/14 19:20:14。
+     1>项目“G:\Wnddemo\c\学生消费管理系统\JW_STUDENT_SYS_APP\JW_STUDENT_SYS_APP\JW_STUDENT_SYS_APP.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\JW_STUDENT_SYS_APP.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt STUDENT_FUNCTION.C
+         STUDENT_FUNCTION.C
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(190): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(216): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 参见“gets”的声明
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(218): warning C4013: “find_element”未定义；假设外部返回 int
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(257): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 参见“gets”的声明
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(259): warning C4013: “del_list”未定义；假设外部返回 int
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(351): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(251): warning C4101: “tag”: 未引用的局部变量
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(349): warning C4101: “q”: 未引用的局部变量
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(408): warning C4101: “i”: 未引用的局部变量
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(408): warning C4101: “j”: 未引用的局部变量
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(431): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 参见“gets”的声明
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(435): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 参见“gets”的声明
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(438): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(439): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(488): warning C4101: “q”: 未引用的局部变量
+     1>g:\wnddemo\c\学生消费管理系统\jw_student_sys_app\jw_student_sys_app\student_function.c(485): warning C4715: “Add”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Wnddemo\c\学生消费管理系统\JW_STUDENT_SYS_APP\Debug\JW_STUDENT_SYS_APP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\JW_STUDENT_SYS_APP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Wnddemo\c\学生消费管理系统\JW_STUDENT_SYS_APP\Debug\JW_STUDENT_SYS_APP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Wnddemo\c\学生消费管理系统\JW_STUDENT_SYS_APP\Debug\JW_STUDENT_SYS_APP.lib" /MACHINE:X86 Debug\JW_STUDENT_SYS_APP.exe.embed.manifest.res
+         Debug\STUDENT_FUNCTION.obj
+         Debug\_main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\JW_STUDENT_SYS_APP.exe.embed.manifest" /manifest Debug\JW_STUDENT_SYS_APP.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         JW_STUDENT_SYS_APP.vcxproj -> G:\Wnddemo\c\学生消费管理系统\JW_STUDENT_SYS_APP\Debug\JW_STUDENT_SYS_APP.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\JW_STUDENT_SYS_APP.unsuccessfulbuild”。
+         正在对“Debug\JW_STUDENT_SYS_APP.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Wnddemo\c\学生消费管理系统\JW_STUDENT_SYS_APP\JW_STUDENT_SYS_APP\JW_STUDENT_SYS_APP.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.65

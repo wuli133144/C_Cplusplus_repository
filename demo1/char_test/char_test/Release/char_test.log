@@ -1,0 +1,24 @@
+﻿生成启动时间为 2015/5/22 17:58:06。
+     1>项目“G:\Wnddemo\c\demo1\char_test\char_test\char_test.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“G:\Wnddemo\c\demo1\char_test\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\char_test.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mam.cpp
+         mam.cpp
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Wnddemo\c\demo1\char_test\Release\char_test.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\char_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Wnddemo\c\demo1\char_test\Release\char_test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Wnddemo\c\demo1\char_test\Release\char_test.lib" /MACHINE:X86 Release\mam.obj
+         正在生成代码
+         已完成代码的生成
+         char_test.vcxproj -> G:\Wnddemo\c\demo1\char_test\Release\char_test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\Wnddemo\c\demo1\char_test\Release\char_test.exe;#1" /manifest Release\char_test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\char_test.unsuccessfulbuild”。
+         正在对“Release\char_test.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Wnddemo\c\demo1\char_test\char_test\char_test.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.40

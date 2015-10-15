@@ -1,0 +1,18 @@
+﻿生成启动时间为 2015/8/30 15:52:14。
+     1>项目“G:\Wnddemo\C++console\stl测试\demo0\jw.Stl.demo0\jw.Stl.demo0\jw.Stl.demo0.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\jw.Stl.demo0.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt _main.cpp
+         _main.cpp
+     1>g:\wnddemo\c++console\stl测试\demo0\jw.stl.demo0\jw.stl.demo0\_main.cpp(92): error C2872: “minus”: 不明确的符号
+                 可能是“g:\wnddemo\c++console\stl测试\demo0\jw.stl.demo0\jw.stl.demo0\_main.cpp(77) : minus”
+                 或       “d:\program files (x86)\microsoft visual studio 10.0\vc\include\xfunctional(33) : std::minus”
+     1>g:\wnddemo\c++console\stl测试\demo0\jw.stl.demo0\jw.stl.demo0\_main.cpp(92): error C2872: “minus”: 不明确的符号
+                 可能是“g:\wnddemo\c++console\stl测试\demo0\jw.stl.demo0\jw.stl.demo0\_main.cpp(77) : minus”
+                 或       “d:\program files (x86)\microsoft visual studio 10.0\vc\include\xfunctional(33) : std::minus”
+     1>已完成生成项目“G:\Wnddemo\C++console\stl测试\demo0\jw.Stl.demo0\jw.Stl.demo0\jw.Stl.demo0.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.42

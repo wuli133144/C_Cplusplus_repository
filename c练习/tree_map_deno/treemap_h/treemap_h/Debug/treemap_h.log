@@ -1,0 +1,13 @@
+﻿生成启动时间为 2015/9/28 19:07:52。
+     1>项目“G:\Wnddemo\c\c练习\tree_map_deno\treemap_h\treemap_h\treemap_h.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\treemap_h.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\treemap_h.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt treemap_h.cpp
+         treemap_h.cpp
+     1>g:\wnddemo\c\c练习\tree_map_deno\treemap_h\treemap_h\treemap_h.cpp(21): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "StdAfx.h"”?
+     1>已完成生成项目“G:\Wnddemo\c\c练习\tree_map_deno\treemap_h\treemap_h\treemap_h.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.71

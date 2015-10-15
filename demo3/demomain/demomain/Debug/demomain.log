@@ -1,0 +1,14 @@
+﻿生成启动时间为 2015/6/16 10:29:58。
+     1>项目“G:\Wnddemo\c\demo3\demomain\demomain\demomain.vcxproj”在节点 2 上(ClCompile 个目标)。
+     1>ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>g:\wnddemo\c\demo3\demomain\demomain\main.c(26): warning C4047: “函数”:“int”与“void *”的间接级别不同
+     1>g:\wnddemo\c\demo3\demomain\demomain\main.c(26): warning C4024: “exit”: 形参和实参 1 的类型不同
+     1>g:\wnddemo\c\demo3\demomain\demomain\main.c(41): warning C4101: “retvalue”: 未引用的局部变量
+     1>g:\wnddemo\c\demo3\demomain\demomain\main.c(36): warning C4715: “fact”: 不是所有的控件路径都返回值
+     1>已完成生成项目“G:\Wnddemo\c\demo3\demomain\demomain\demomain.vcxproj”(ClCompile 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.14

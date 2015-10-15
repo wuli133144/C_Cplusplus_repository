@@ -1,0 +1,27 @@
+﻿生成启动时间为 2015/9/10 21:14:14。
+     1>项目“G:\Wnddemo\c\指针\Jw_pointer.app\Jw_pointer.app\Jw_pointer.app.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Jw_pointer.app.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>g:\wnddemo\c\指针\jw_pointer.app\jw_pointer.app\main.c(93): warning C4013: “system”未定义；假设外部返回 int
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Wnddemo\c\指针\Jw_pointer.app\Debug\Jw_pointer.app.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Jw_pointer.app.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Wnddemo\c\指针\Jw_pointer.app\Debug\Jw_pointer.app.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Wnddemo\c\指针\Jw_pointer.app\Debug\Jw_pointer.app.lib" /MACHINE:X86 Debug\Jw_pointer.app.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Jw_pointer.app.exe.embed.manifest" /manifest Debug\Jw_pointer.app.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Jw_pointer.app.vcxproj -> G:\Wnddemo\c\指针\Jw_pointer.app\Debug\Jw_pointer.app.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Jw_pointer.app.unsuccessfulbuild”。
+         正在对“Debug\Jw_pointer.app.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Wnddemo\c\指针\Jw_pointer.app\Jw_pointer.app\Jw_pointer.app.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.28
